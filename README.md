@@ -193,3 +193,7 @@ REVIEW DAY
 #
 - [x] <b>Day 19</b>
 * Converter app **MILESTONE
+
+#
+- [x] <b>Day 20</b>
+* Guess the Flag
