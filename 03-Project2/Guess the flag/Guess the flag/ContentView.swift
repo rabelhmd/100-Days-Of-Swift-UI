@@ -17,6 +17,8 @@ struct ContentView: View {
 
     @State private var scoreTitle = ""
     @State private var scoreMessage = ""
+    
+    // Challange 1
     @State private var score = 0
     
     @State private var opacityAmount = 1.0
@@ -52,6 +54,7 @@ struct ContentView: View {
                                       axis: (x: 0, y: 1, z: 0))
                 }
                 
+                // Challange 2
                 ScoreTextView(score: score)
                 
                 Spacer()
@@ -82,9 +85,9 @@ struct ContentView: View {
     }
     
     private func handleCorrectAnswer() {
-        score += 1
+        score += 1 // Challenge 1
         scoreTitle = "CORRECT!"
-        scoreMessage = "Your score is: \(score)"
+        scoreMessage = "Your score is: \(score)" // Challenge 1
         rotationAmount = 0.0
         withAnimation(.interpolatingSpring(stiffness: 20, damping: 5)) {
             self.rotationAmount = 360
@@ -92,9 +95,9 @@ struct ContentView: View {
     }
     
     private func handleWrongAnswer(_ number: Int) {
-        //score -= 1
+        score -= 1 // Challenge 1
         scoreTitle = "WRONG!"
-        scoreMessage = "That's the flag of \(countries[number])\nYour score is now: \(score)"
+        scoreMessage = "That's the flag of \(countries[number])\nYour score is now: \(score)" // challenge 3
         
         withAnimation(Animation.interpolatingSpring(mass: 1, stiffness: 120, damping: 40, initialVelocity: 200)) {
             self.wrongRotationAmount[number] = 1
