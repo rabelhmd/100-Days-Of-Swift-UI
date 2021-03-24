@@ -45,6 +45,7 @@ struct ContentView: View {
                         self.opacityAmount = 0.8
                         self.answerTapped(number)
                     }) {
+                        // project 3 - challenge 3
                         FlagImageView(imageName: self.countries[number])
                     }
                     .opacity(number == self.correctAnswer ? 1 : self.opacityAmount)

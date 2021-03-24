@@ -197,3 +197,32 @@ REVIEW DAY
 #
 - [x] <b>Day 20</b>
 * Guess the Flag
+
+
+#
+- [x] <b>Day 21</b>
+* Guess the Flag
+
+
+#
+- [x] <b>Day 22</b>
+* Guess the Flag - *Challenges
+
+#
+- [x] <b>Day 23</b>
+* Views and modifiers: Introduction
+* Why does SwiftUI use structs for views?
+* What is behind the main SwiftUI view?
+* Why modifier order matters
+* Why does SwiftUI use “some View” for its view type?
+* Conditional modifiers
+* Environment modifiers
+* Views as properties
+* View composition
+* Custom modifiers
+* Custom containers
+
+
+#
+- [x] <b>Day 24</b>
+* Views and Modifiers
