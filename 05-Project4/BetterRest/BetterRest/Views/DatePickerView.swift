@@ -12,13 +12,12 @@ struct DatePickerView: View {
     @Binding var wakeUp: Date
     
     var body: some View {
-        
-        Text("When do you want to wake up?")
-            .font(.headline)
-        
-        DatePicker("Please enter a time", selection: $wakeUp, displayedComponents: .hourAndMinute)
-            .labelsHidden()
-            .datePickerStyle(WheelDatePickerStyle())
+        // Challange 1
+        Section(header: Text("When do you want to wake up?").font(.headline)) {
+            DatePicker("Please enter a time", selection: $wakeUp, displayedComponents: .hourAndMinute)
+                .labelsHidden()
+                .datePickerStyle(WheelDatePickerStyle())
+        }
     }
 }
 

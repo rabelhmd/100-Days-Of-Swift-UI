@@ -12,17 +12,17 @@ struct CoffeeIntakeView: View {
     @Binding var coffeeAmount: Int
     
     var body: some View {
-        
-        Text("Daily coffee intake")
-            .font(.headline)
-        
-        Stepper(value: $coffeeAmount, in: 1...20) {
-            if coffeeAmount == 1 {
-                Text("1 cup")
-            } else {
-                Text("\(coffeeAmount) cups")
+        // Challange 1
+        Section(header: Text("Daily coffee intake").font(.headline)) {
+            Stepper(value: $coffeeAmount, in: 1...20) {
+                Text("\(amountText)")
             }
         }
+    }
+    
+    var amountText: String {
+        let amount = coffeeAmount == 1 ? "cup" : "cups"
+        return "\(coffeeAmount) \(amount)"
     }
 }
 

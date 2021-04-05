@@ -7,33 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA511C09260C521900BD6EFD /* BetterRestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA511C08260C521900BD6EFD /* BetterRestApp.swift */; };
-		FA511C0B260C521900BD6EFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA511C0A260C521900BD6EFD /* ContentView.swift */; };
-		FA511C0D260C521A00BD6EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA511C0C260C521A00BD6EFD /* Assets.xcassets */; };
-		FA511C10260C521A00BD6EFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA511C0F260C521A00BD6EFD /* Preview Assets.xcassets */; };
-		FA511C19260C55D200BD6EFD /* SleepCalculator.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = FA511C18260C55D200BD6EFD /* SleepCalculator.mlkitmodel */; };
-		FA511C1D260C5A5200BD6EFD /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA511C1C260C5A5200BD6EFD /* DatePickerView.swift */; };
-		FA511C21260C5ABD00BD6EFD /* SleepAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA511C20260C5ABD00BD6EFD /* SleepAmountView.swift */; };
-		FA511C24260C5B1300BD6EFD /* CoffeeIntakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA511C23260C5B1300BD6EFD /* CoffeeIntakeView.swift */; };
-		FA5F17B4261AB60900979C80 /* BedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5F17B3261AB60900979C80 /* BedTimeView.swift */; };
+		FA6E9C7C26141BFE00D2329D /* WordScrambleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E9C7B26141BFE00D2329D /* WordScrambleApp.swift */; };
+		FA6E9C7E26141BFE00D2329D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E9C7D26141BFE00D2329D /* ContentView.swift */; };
+		FA6E9C8026141BFF00D2329D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6E9C7F26141BFF00D2329D /* Assets.xcassets */; };
+		FA6E9C8326141BFF00D2329D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6E9C8226141BFF00D2329D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA511C05260C521900BD6EFD /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA511C08260C521900BD6EFD /* BetterRestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestApp.swift; sourceTree = "<group>"; };
-		FA511C0A260C521900BD6EFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FA511C0C260C521A00BD6EFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FA511C0F260C521A00BD6EFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FA511C11260C521A00BD6EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA511C18260C55D200BD6EFD /* SleepCalculator.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlkitmodel; sourceTree = "<group>"; };
-		FA511C1C260C5A5200BD6EFD /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
-		FA511C20260C5ABD00BD6EFD /* SleepAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepAmountView.swift; sourceTree = "<group>"; };
-		FA511C23260C5B1300BD6EFD /* CoffeeIntakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeIntakeView.swift; sourceTree = "<group>"; };
-		FA5F17B3261AB60900979C80 /* BedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedTimeView.swift; sourceTree = "<group>"; };
+		FA6E9C7826141BFE00D2329D /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6E9C7B26141BFE00D2329D /* WordScrambleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleApp.swift; sourceTree = "<group>"; };
+		FA6E9C7D26141BFE00D2329D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA6E9C7F26141BFF00D2329D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA6E9C8226141BFF00D2329D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA6E9C8426141BFF00D2329D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FA511C02260C521900BD6EFD /* Frameworks */ = {
+		FA6E9C7526141BFE00D2329D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,90 +33,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FA511BFC260C521800BD6EFD = {
+		FA6E9C6F26141BFE00D2329D = {
 			isa = PBXGroup;
 			children = (
-				FA511C07260C521900BD6EFD /* BetterRest */,
-				FA511C06260C521900BD6EFD /* Products */,
+				FA6E9C7A26141BFE00D2329D /* WordScramble */,
+				FA6E9C7926141BFE00D2329D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FA511C06260C521900BD6EFD /* Products */ = {
+		FA6E9C7926141BFE00D2329D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA511C05260C521900BD6EFD /* BetterRest.app */,
+				FA6E9C7826141BFE00D2329D /* WordScramble.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FA511C07260C521900BD6EFD /* BetterRest */ = {
+		FA6E9C7A26141BFE00D2329D /* WordScramble */ = {
 			isa = PBXGroup;
 			children = (
-				FA511C1B260C5A4700BD6EFD /* Views */,
-				FA511C08260C521900BD6EFD /* BetterRestApp.swift */,
-				FA511C0A260C521900BD6EFD /* ContentView.swift */,
-				FA511C18260C55D200BD6EFD /* SleepCalculator.mlkitmodel */,
-				FA511C0C260C521A00BD6EFD /* Assets.xcassets */,
-				FA511C11260C521A00BD6EFD /* Info.plist */,
-				FA511C0E260C521A00BD6EFD /* Preview Content */,
+				FA6E9C7B26141BFE00D2329D /* WordScrambleApp.swift */,
+				FA6E9C7D26141BFE00D2329D /* ContentView.swift */,
+				FA6E9C7F26141BFF00D2329D /* Assets.xcassets */,
+				FA6E9C8426141BFF00D2329D /* Info.plist */,
+				FA6E9C8126141BFF00D2329D /* Preview Content */,
 			);
-			path = BetterRest;
+			path = WordScramble;
 			sourceTree = "<group>";
 		};
-		FA511C0E260C521A00BD6EFD /* Preview Content */ = {
+		FA6E9C8126141BFF00D2329D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FA511C0F260C521A00BD6EFD /* Preview Assets.xcassets */,
+				FA6E9C8226141BFF00D2329D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		FA511C1B260C5A4700BD6EFD /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				FA511C1C260C5A5200BD6EFD /* DatePickerView.swift */,
-				FA511C20260C5ABD00BD6EFD /* SleepAmountView.swift */,
-				FA511C23260C5B1300BD6EFD /* CoffeeIntakeView.swift */,
-				FA5F17B3261AB60900979C80 /* BedTimeView.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA511C04260C521900BD6EFD /* BetterRest */ = {
+		FA6E9C7726141BFE00D2329D /* WordScramble */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA511C14260C521A00BD6EFD /* Build configuration list for PBXNativeTarget "BetterRest" */;
+			buildConfigurationList = FA6E9C8726141BFF00D2329D /* Build configuration list for PBXNativeTarget "WordScramble" */;
 			buildPhases = (
-				FA511C01260C521900BD6EFD /* Sources */,
-				FA511C02260C521900BD6EFD /* Frameworks */,
-				FA511C03260C521900BD6EFD /* Resources */,
+				FA6E9C7426141BFE00D2329D /* Sources */,
+				FA6E9C7526141BFE00D2329D /* Frameworks */,
+				FA6E9C7626141BFE00D2329D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BetterRest;
-			productName = BetterRest;
-			productReference = FA511C05260C521900BD6EFD /* BetterRest.app */;
+			name = WordScramble;
+			productName = WordScramble;
+			productReference = FA6E9C7826141BFE00D2329D /* WordScramble.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FA511BFD260C521800BD6EFD /* Project object */ = {
+		FA6E9C7026141BFE00D2329D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					FA511C04260C521900BD6EFD = {
+					FA6E9C7726141BFE00D2329D = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = FA511C00260C521800BD6EFD /* Build configuration list for PBXProject "BetterRest" */;
+			buildConfigurationList = FA6E9C7326141BFE00D2329D /* Build configuration list for PBXProject "WordScramble" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -134,47 +111,42 @@
 				en,
 				Base,
 			);
-			mainGroup = FA511BFC260C521800BD6EFD;
-			productRefGroup = FA511C06260C521900BD6EFD /* Products */;
+			mainGroup = FA6E9C6F26141BFE00D2329D;
+			productRefGroup = FA6E9C7926141BFE00D2329D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA511C04260C521900BD6EFD /* BetterRest */,
+				FA6E9C7726141BFE00D2329D /* WordScramble */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FA511C03260C521900BD6EFD /* Resources */ = {
+		FA6E9C7626141BFE00D2329D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA511C10260C521A00BD6EFD /* Preview Assets.xcassets in Resources */,
-				FA511C0D260C521A00BD6EFD /* Assets.xcassets in Resources */,
+				FA6E9C8326141BFF00D2329D /* Preview Assets.xcassets in Resources */,
+				FA6E9C8026141BFF00D2329D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FA511C01260C521900BD6EFD /* Sources */ = {
+		FA6E9C7426141BFE00D2329D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA511C0B260C521900BD6EFD /* ContentView.swift in Sources */,
-				FA5F17B4261AB60900979C80 /* BedTimeView.swift in Sources */,
-				FA511C21260C5ABD00BD6EFD /* SleepAmountView.swift in Sources */,
-				FA511C09260C521900BD6EFD /* BetterRestApp.swift in Sources */,
-				FA511C1D260C5A5200BD6EFD /* DatePickerView.swift in Sources */,
-				FA511C24260C5B1300BD6EFD /* CoffeeIntakeView.swift in Sources */,
-				FA511C19260C55D200BD6EFD /* SleepCalculator.mlkitmodel in Sources */,
+				FA6E9C7E26141BFE00D2329D /* ContentView.swift in Sources */,
+				FA6E9C7C26141BFE00D2329D /* WordScrambleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FA511C12260C521A00BD6EFD /* Debug */ = {
+		FA6E9C8526141BFF00D2329D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		FA511C13260C521A00BD6EFD /* Release */ = {
+		FA6E9C8626141BFF00D2329D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -290,44 +262,44 @@
 			};
 			name = Release;
 		};
-		FA511C15260C521A00BD6EFD /* Debug */ = {
+		FA6E9C8826141BFF00D2329D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"BetterRest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WordScramble/Preview Content\"";
 				DEVELOPMENT_TEAM = 3HN4UJFFA3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = BetterRest/Info.plist;
+				INFOPLIST_FILE = WordScramble/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = inverse.ai.BetterRest;
+				PRODUCT_BUNDLE_IDENTIFIER = inverse.ai.WordScramble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		FA511C16260C521A00BD6EFD /* Release */ = {
+		FA6E9C8926141BFF00D2329D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"BetterRest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WordScramble/Preview Content\"";
 				DEVELOPMENT_TEAM = 3HN4UJFFA3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = BetterRest/Info.plist;
+				INFOPLIST_FILE = WordScramble/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = inverse.ai.BetterRest;
+				PRODUCT_BUNDLE_IDENTIFIER = inverse.ai.WordScramble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -337,25 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA511C00260C521800BD6EFD /* Build configuration list for PBXProject "BetterRest" */ = {
+		FA6E9C7326141BFE00D2329D /* Build configuration list for PBXProject "WordScramble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA511C12260C521A00BD6EFD /* Debug */,
-				FA511C13260C521A00BD6EFD /* Release */,
+				FA6E9C8526141BFF00D2329D /* Debug */,
+				FA6E9C8626141BFF00D2329D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA511C14260C521A00BD6EFD /* Build configuration list for PBXNativeTarget "BetterRest" */ = {
+		FA6E9C8726141BFF00D2329D /* Build configuration list for PBXNativeTarget "WordScramble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA511C15260C521A00BD6EFD /* Debug */,
-				FA511C16260C521A00BD6EFD /* Release */,
+				FA6E9C8826141BFF00D2329D /* Debug */,
+				FA6E9C8926141BFF00D2329D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FA511BFD260C521800BD6EFD /* Project object */;
+	rootObject = FA6E9C7026141BFE00D2329D /* Project object */;
 }

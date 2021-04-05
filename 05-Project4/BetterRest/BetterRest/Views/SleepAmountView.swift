@@ -12,12 +12,11 @@ struct SleepAmountView: View {
     @Binding var sleepAmount: Double
     
     var body: some View {
-        
-        Text("Desired amount of sleep")
-            .font(.headline)
-        
-        Stepper(value: $sleepAmount, in: 4...12, step: 0.25) {
-            Text("\(sleepAmount, specifier: "%g") hours")
+        // Challange 1
+        Section(header: Text("Desired amount of sleep").font(.headline)) {
+            Stepper(value: $sleepAmount, in: 4...12, step: 0.25) {
+                Text("\(sleepAmount, specifier: "%g") hours")
+            }
         }
     }
 }
