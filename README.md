@@ -1,5 +1,5 @@
 ![Header](https://img.shields.io/badge/platform-iOS-lightgrey.svg)
-![Header](https://img.shields.io/badge/completion-25/100-green.svg)
+![Header](https://img.shields.io/badge/completion-28/100-green.svg)
 
 # 100DaysOfSwiftUI
 100 Days Of SwiftUI Challenge by Paul Hudson -> https://www.hackingwithswift.com/100/swiftui
@@ -231,3 +231,16 @@ REVIEW DAY
 #
 - [x] <b>Day 25</b>
 * Rock, Paper, or Scissors **MILESTONE
+
+
+#
+- [x] <b>Day 26</b>
+* BetterRest: coreML project
+
+#
+- [x] <b>Day 27</b>
+* BetterRest: coreML project
+
+#
+- [x] <b>Day 28</b>
+* BetterRest: coreML project - *Challenges
