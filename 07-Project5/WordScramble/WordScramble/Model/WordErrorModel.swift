@@ -7,14 +7,20 @@
 
 import SwiftUI
 
-struct WordErrorModel: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct WordErrorModel {
+    var title: String
+    var message: String
+    var showError: Bool
+    
+    init(_ title: String, _ message: String, _ showError: Bool) {
+        self.title = title
+        self.message = message
+        self.showError = showError
     }
-}
-
-struct WordErrorModel_Previews: PreviewProvider {
-    static var previews: some View {
-        WordErrorModel()
+    
+    init() {
+        self.title = ""
+        self.message = ""
+        self.showError = false
     }
 }
