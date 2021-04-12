@@ -26,8 +26,14 @@ struct Home: View {
                     Image(systemName: "\($0.count).circle")
                     Text($0)
                 }
+                // Challange 3
+                Text("Score \(homeViewModel.score)")
             }
             .navigationBarTitle(homeViewModel.title)
+            // Challange 2
+            .navigationBarItems(leading: Button("New Game") {
+                self.homeViewModel.startGame()
+            })
         }
         .onAppear {
             homeViewModel.startGame()

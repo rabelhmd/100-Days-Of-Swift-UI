@@ -1,5 +1,5 @@
 ![Header](https://img.shields.io/badge/platform-iOS-lightgrey.svg)
-![Header](https://img.shields.io/badge/completion-28/100-green.svg)
+![Header](https://img.shields.io/badge/completion-31/100-green.svg)
 
 # 100DaysOfSwiftUI
 100 Days Of SwiftUI Challenge by Paul Hudson -> https://www.hackingwithswift.com/100/swiftui
@@ -244,3 +244,17 @@ REVIEW DAY
 #
 - [x] <b>Day 28</b>
 * BetterRest: coreML project - *Challenges
+
+
+#
+- [x] <b>Day 29</b>
+* Word Scramble
+
+#
+- [x] <b>Day 30</b>
+* Word Scramble
+
+
+#
+- [x] <b>Day 31</b>
+* Word Scramble - *Challenges

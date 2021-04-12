@@ -14,6 +14,9 @@ class HomeViewModel: ObservableObject {
     @Published var newWord: String = ""
     @Published var wordError: WordErrorModel = WordErrorModel()
     
+    // Challange 1
+    private let minWordLength = 3
+    
     var textFieldPlaceHolderText: String {
         "Enter your word"
     }
@@ -30,7 +33,20 @@ class HomeViewModel: ObservableObject {
         wordError.message
     }
     
+    // Challange 3
+    var score: Int {
+        var count = 0
+        for word in usedWords {
+            count += word.count
+        }
+        return count
+    }
+    
     func startGame() {
+        
+        // Challange 2
+        
+        usedWords.removeAll()
         
         guard let textFileURL = Bundle.main.url(forResource: "start", withExtension: "txt") else {
             fatalError("Could not load start.txt from bundle.")
@@ -64,9 +80,14 @@ class HomeViewModel: ObservableObject {
             return
         }
         
+        // Challange 1
+        guard isLongEnough(word: word) else {
+            wordError = WordErrorModel("Word too short", "Words must be \(minWordLength) letters at least", true)
+            return
+        }
+        
         usedWords.insert(word, at: 0)
         newWord = ""
-        startGame()
     }
 }
 
@@ -93,5 +114,10 @@ extension HomeViewModel {
         let range = NSRange(location: 0, length: word.utf16.count)
         let misspelledRange = checker.rangeOfMisspelledWord(in: word, range: range, startingAt: 0, wrap: false, language: "en")
         return misspelledRange.location == NSNotFound
+    }
+    
+    // Challange 1
+    private func isLongEnough(word: String) -> Bool {
+        return word.count >= minWordLength
     }
 }
